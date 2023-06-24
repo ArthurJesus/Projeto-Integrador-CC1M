@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+}
+
+header #User {
+    width: 10%;
+}
+
+header #Fortes {
+    margin-left: 100px;
+    width: 25%;
+}
+
+.lateral {
+    width: 20%;
+    height: 100%;
+    background-color: blue;
+    position: fixed;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.lateral ul li {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.lateral ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+}
+
+#home {
+    width: 10%;
+}
+
+#perfil {
+    width: 10%;
+}
+
+#cursos {
+    width: 10%;
+}
+
+#recompensa {
+    width: 10%;
+}
+
+#classificacao {
+    width: 10%;
+}
+
+.lateral ul li a {
+    width: 100%;
+    height: 100%;
+    padding: 7px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white
+}
+
+.lateral ul li a:hover {
+    background-color: rgb(20, 20, 255);
+}
+
+.lateral h3 {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    font-size: medium;
+}
+
+.lateral #voltar {
+    width: 60px;
+    margin: 20px;
+}
+
+#Fortes-2 {
+    width: 80%;
+    margin-left: 28px;
+}
+
+footer {
+    width: 100%;
+    height: 5%;
+    position: fixed;
+    background-color: gray;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#conteudo{
+  width: 1247px;
+  height: 560px;
+  position: absolute;
+  top: 156px;
+  left: 312px;
+  padding: 20px ;
+  padding-left: 40px;
+}
+
+#h_perfil{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+#bloco_1{
+    width: 600px;
+    height: 400px;
+    background-color: lightgray;
+    position: absolute;
+    left: 10px;
+    top: 100px;
+    border-radius: 20px;
+}
+#bloco_2{
+    width: 600px;
+    height: 400px;
+    background-color: lightgray;
+    position: absolute;
+    left: 635px;
+    top: 100px;
+    border-radius: 20px;
+}
+#conteudo_b{
+    display: flex;
+    justify-content: space-around;
+}
+.topo{
+    width: 100%;
+    height: 5%;
+    background: rgb(28, 62, 255);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#informacoes{
+    padding: 10px;
+}
+#informacoes h2{
+    margin-bottom: 40px;
+}
+#informacoes p{
+    margin-top: 20px;
+}
+
+#endereco{
+    padding: 10px;
+}
+#endereco h2{
+    margin-bottom: 40px;
+}
+#endereco p{
+    margin-top: 20px;
+}
+
+#contratados{
+    padding: 10px;
+}
+#contratados h2{
+    margin-bottom: 40px;
+}
+#contratados li{
+    margin-top: 20px;
+}
+
+#certificacoes{
+    padding: 10px;
+}
+#certificacoes h2{
+    margin-bottom: 40px;
+}
+#certificacoes li{
+    margin-top: 20px;
+}
